@@ -1,0 +1,90 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.flex1{
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    background-color: aqua;
+}
+.mid1{
+    display: flex;
+}
+.mid2{
+    display: flex;
+}
+.item{
+    background-color: blue;
+    width:50px;
+    height: 50px;
+    margin:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+/*.flex3{
+  display: grid;
+  grid-auto-columns: 50px;
+  grid-gap: 10px;
+  background-color: aqua;
+  padding: 10px;
+  width: 70%;
+
+  
+  
+
+}
+
+.flex3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }*/
+
+
+
+.flex6{
+    background-color: orange;
+    width: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.flex7{
+    background-color: skyblue;
+    height: 15%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 25px;
+
+}

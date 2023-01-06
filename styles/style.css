@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+header{
+    background-color: brown;
+    height: 70px;
+    position : sticky;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+.logo{
+    color: white;
+    font-size: 1.5em;
+}
+
+#main-nav{
+    margin-left: auto;
+}
+
+#main-nav a{
+    margin-right: 10px;
+}
+
+.btn-login{
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+}
+
+#mobile-nav{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    #main-nav{
+        display: none;
+    }
+
+    #mobile-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mobile-nav a{
+        padding-top: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    header{
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+     
+
+}
+h1{
+
+    align-items: center;
+}
+
+form{
+
+   
+
+    justify-content: center;
+
+}
+
+button{
+
+    align-items: center;
+    text-decoration: none;
+  color: black;
+
+}
+    #sub-bttn{
+        text-align: right;
+    }
+    .center{
+
+        justify-content: right;
+        display: flex;
+    
+    }
+    
+
+    .create{
+
+        color: black;
+    
+        text-decoration: none;
+        font-size: 15px;
+        
+    
+       
+    
+    }
+    .pic {
+        display: flex;
+        justify-content: center;
+    }
+table{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+    h1{
+        text-align: center;
+        color: black;
+        
+    }
+    

@@ -1,0 +1,25 @@
+body{
+    height: 100px;
+   background-color: rgb(33, 222, 247)}
+
+   .mid1{
+    display: flex;
+}
+.mid2{
+    display: flex;
+}
+.item{
+    background-color: rgb(12, 123, 167);
+    width:90%;
+    height: 200px;
+    font-size: 50px;
+    color: white ;
+    margin:45px;
+    margin-top: 65px;
+    margin-bottom:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}

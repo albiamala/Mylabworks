@@ -1,0 +1,143 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <button id="first">Button</button>
+    <button id="target">Button</button>
+    <div>
+        <button>Button</button>
+        <button id="target">Button</button>
+        <button id="target">Button</button>
+    </div>
+
+    <script>
+        const elements  = document.querySelector('#first');
+        console.log(elements);
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="target">
+        <h1>Heading 1</h1>
+        <p>This is a paragraph</p>
+    </div>
+
+    <script>
+        const target = document.querySelector('#target');
+        // console.log(target.children);
+        // console.log(target.childNodes);
+        console.log(target.nextElementSibling);
+           
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="one">Button</button>
+    <button>Button</button>
+    <button>Button</button>
+    <button>Button</button>
+    <button>Button</button>
+
+    <script>
+        document.querySelectorAll('button').forEach(btn=>{
+            btn.addEventListener('click', (e)=>{
+                e.target.innerText = 'Clicked';
+            })
+        })
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="target" onfocus="handleEvent(event)"
+    tabindex="1">
+    
+    <button onclick="selectElement()">Select Element</button>
+
+    <script>
+        function handleEvent(e) {
+            console.log(e);
+        }
+
+        function selectElement() {
+            document.getElementById('target').focus();
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="target" onkeyup="handleEvent(event)"
+    tabindex="1">
+
+    <h1 id="result"></h1>
+    <script>
+        function handleEvent(e) {
+            let res = document.getElementById('result');
+            res.innerText = e.target.value;
+            
+        }
+    </script>
+</body>
+</html>
+

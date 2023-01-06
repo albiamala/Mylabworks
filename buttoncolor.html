@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="changeColor('blue')">Blue</button>
+    <button onclick="changeColor('yellow')">Yellow</button>
+
+    <div id="container">
+        <h1>Test content</h1>
+    </div>
+
+    <script>
+        const container = document.getElementById('container');
+        
+        function changeColor(color){
+            container.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changeColor(event)">Red</button>
+    <button onclick="changeColor(event)">Green</button>
+    <button onclick="changeColor(event)">Blue</button>
+    <button onclick="changeColor(event)">Yellow</button>
+
+    <div id="container">
+        <h1>Test Content</h1>
+    </div>
+
+    <script>
+        const container = document.getElementById('container');
+        function changeColor(e){
+            const color = e.target.innerText.toLowerCase();
+            container.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button data-color = " Red"  onclick="changeColor(event)">Red</button>
+    <button data-color = "Green" onclick="changeColor(event)">Green</button>
+    <button data-color = " blue" onclick="changeColor(event)">Blue</button>
+    <button data-color = "yellow"onclick="changeColor(event)">Yellow</button>
+    
+    <div id="container">
+        <h1>Test Content</h1>
+    </div>
+
+    <script>
+        const container =  document.getElementById('container');
+        
+        function changeColor(e){
+            const color = e.target.getAttribute('data-color');
+            container.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>

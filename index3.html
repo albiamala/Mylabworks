@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="divRed()">Red</button>
+
+    <button onclick="divGreen()">Green</button>
+
+    <button onclick="divBlue()">Blue</button>
+
+    <button onclick="divYellow()">Yellow</button>
+
+    <div id="div1" style="width: 200px; height: 200px;"></div>
+    
+   
+    <script>
+         let d = document.getElementById('div1');
+
+    function divRed(){
+
+    d.style.backgroundColor = "red";
+
+    }
+
+    function divGreen(){
+    
+    d.style.backgroundColor = "green";
+    
+    }
+    
+    
+    function divBlue(){
+    
+        d.style.backgroundColor = "blue";
+    
+    }
+    
+    function divYellow(){
+    
+        d.style.backgroundColor = "yellow";
+
+}
+    </script>
+</body>
+</html>

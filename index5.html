@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="image/women.jpg" alt="Image" height="150" width="150"><br>
+    <input type="range" min="50" max="390" value="50"
+    onchange="handleEvent(event)">
+    
+  
+    <h1 id="result"></h1>
+
+    <script>
+        function handleEvent(e) {
+            var img = document.querySelector('img');
+            img.style.height = e.target.value + 'px';
+            img.style.width = e.target.value + 'px';
+
+            
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let obj = {
+            name : 'manu',
+            email : 'manu@gmail.com'
+        }
+        console.log(obj);
+        const result = JSON.stringify(obj, null ,4);     
+        console.log(result);
+
+    </script>
+</body> -->
+
+      <script>
+             const data = '{"name":"manu","email":"manu@gmail.com"}'
+             const obj = JSON.parse(data);    
+             console.log(obj);
+             console.log(obj.name);
+
+      </script>
+</html>
